@@ -59,7 +59,7 @@ cnftp = type=http-response, pattern=^http:\/\/access\.if\.iqiyi\.com\/3f1\/cards
 
 cnftp = type=http-response, pattern=^https:\/\/cards\.iqiyi\.com\/views_category\/3\.0\/(category_home|categorylib_content|film_hybrid)\?, script-path=https://raw.githubusercontent.com/yjlsx/quantumult-x/master/rewrite/MGTV/cnftp.js, requires-body=true, max-size=-1, timeout=60
 
-cnftp = type=http-response, pattern=^https:\/\/cards\.iqiyi\.com\/(views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?, script-path=https://raw.githubusercontent.com/yjlsx/quantumult-x/master/rewrite/MGTV/cnftp.jss, requires-body=true, max-size=-1, timeout=60
+cnftp = type=http-response, pattern=^https:\/\/cards\.iqiyi\.com\/(views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?, script-path=https://raw.githubusercontent.com/yjlsx/quantumult-x/master/rewrite/MGTV/cnftp.js, requires-body=true, max-size=-1, timeout=60
 
 # 播放详情页
 cnftp = type=http-response, pattern=^https:\/\/cards\.iqiyi\.com\/views_plt\/3\.0\/player_tabs_v2\?, script-path=https://raw.githubusercontent.com/yjlsx/quantumult-x/master/rewrite/MGTV/cnftp.js, requires-body=true, max-size=-1, timeout=60
