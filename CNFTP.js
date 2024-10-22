@@ -1,5 +1,4 @@
 // 2024-01-14 18:15
-//引用地址：https://github.com/RuCu6/QuanX/blob/main/Scripts/cnftp.js
 
 const url = $request.url;
 if (!$response.body) $done({});
